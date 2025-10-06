@@ -136,11 +136,11 @@ function App() {
         )}
 
         <div className="page-header">
-          <h1>{activeGenre ? `${activeGenre} Books` : "产品集锦"}</h1>
+          <h1>{activeGenre ? `${activeGenre} ` : "产品集锦"}</h1>
           <p className="text-gray-900">
             {activeGenre
               ? `探索我们的 ${activeGenre.toLowerCase()} 产品`
-              : "Discover your next favorite book"}
+              : "Discover your next favorite product"}
           </p>
 
           {/* Show banner only when using mock data */}
