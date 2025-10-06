@@ -122,7 +122,7 @@ function App() {
         {!bookId && (
           <Breadcrumbs
             items={[
-              { label: "All Books", value: null },
+              { label: "所有产品", value: null },
               ...(activeGenre
                 ? [{ label: activeGenre, value: activeGenre }]
                 : []),
@@ -136,7 +136,7 @@ function App() {
         )}
 
         <div className="page-header">
-          <h1>{activeGenre ? `${activeGenre} Books` : "My Library"}</h1>
+          <h1>{activeGenre ? `${activeGenre} Books` : "产品集锦"}</h1>
           <p className="text-gray-900">
             {activeGenre
               ? `Explore our collection of ${activeGenre.toLowerCase()} books`
