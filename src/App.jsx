@@ -139,7 +139,7 @@ function App() {
           <h1>{activeGenre ? `${activeGenre} Books` : "产品集锦"}</h1>
           <p className="text-gray-900">
             {activeGenre
-              ? `Explore our collection of ${activeGenre.toLowerCase()} books`
+              ? `探索我们的 ${activeGenre.toLowerCase()} 产品`
               : "Discover your next favorite book"}
           </p>
 
