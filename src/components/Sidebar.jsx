@@ -3,7 +3,7 @@ import { Link } from "react-router";
 function Sidebar({ genres, activeGenre, counts }) {
   return (
     <aside className="sidebar">
-      <div className="sidebar-title">Library</div>
+      <div className="sidebar-title">解决方案中心</div>
 
       <nav className="sidebar-nav">
         <Link
@@ -12,7 +12,7 @@ function Sidebar({ genres, activeGenre, counts }) {
             activeGenre === null ? "sidebar-link-active" : "sidebar-link"
           }
         >
-          All Books
+          产品矩阵
         </Link>
 
         <div className="sidebar-section">
