@@ -210,6 +210,8 @@ p {
 /* Mock Data Banner Styling */
 .mock-data-banner {
   @apply bg-blue-50 border border-blue-300 rounded-lg my-4 p-4 relative;
+  display: none !important;
+
 }
 
 .banner-content {
