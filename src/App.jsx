@@ -140,7 +140,7 @@ function App() {
           <p className="text-gray-900">
             {activeGenre
               ? `探索我们的 ${activeGenre.toLowerCase()} 产品`
-              : "Discover your next favorite product"}
+              : ""}
           </p>
 
           {/* Show banner only when using mock data */}
