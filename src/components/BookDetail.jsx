@@ -5,7 +5,7 @@ function BookDetail({ bookData }) {
   const navigate = useNavigate();
   const { book, relatedBooks } = bookData;
 
-  const breadcrumbItems = [{ label: "All Books", value: null }];
+  const breadcrumbItems = [{ label: "所有产品", value: null }];
 
   if (book.genre) {
     breadcrumbItems.push({ label: book.genre, value: book.genre });
