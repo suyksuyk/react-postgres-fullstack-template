@@ -40,6 +40,8 @@ function Sidebar({ genres, activeGenre, counts }) {
       <div className="mt-auto pt-6 px-6">
         <div className="text-xs text-gray-900">
           <br />
+          本公司致力于提供准确的产品信息，但软件功能、界面设计、技术参数等可能随版本迭代而调整。
+          所有说明均不构成合同承诺，一切以实际交付的具体软件版本为准。
           <a
             href="https://www.rainwish.com.cn"
             target="_blank"
