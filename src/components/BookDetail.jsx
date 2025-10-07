@@ -70,8 +70,8 @@ function BookDetail({ bookData }) {
           <section className="mb-12">
             <h3 className="mb-6">
               {book.genre
-                ? `Other Books in ${book.genre}`
-                : "You May Also Like"}
+                ? `Other Products in ${book.genre}`
+                : "You May Also Like"}f
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
               {relatedBooks.map((relBook) => (
